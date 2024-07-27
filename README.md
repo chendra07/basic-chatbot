@@ -3,7 +3,6 @@
 With basic feature added such as:
 
 - Python version: 3.12.4
-- Tensorflow: 2.17 (with CUDA) + memory growth optimization
 - Ctransformer
 - Chainlit
 - LangChain
