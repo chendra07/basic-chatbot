@@ -7,6 +7,8 @@ With basic feature added such as:
 - Chainlit
 - LangChain
 
+(more details in requirements.txt)
+
 # Quick Installation
 
 run:
@@ -56,8 +58,4 @@ on your current working directory terminal:
 pipenv --rm
 ```
 
-tested on:
-Ubuntu 22.04 LTS
-Intel 12th gen 12650H
-RTX 4060 laptop 8GB
-RAM 16GB DDR5
+Special thanks to Thanks to [Zoltan C. Toth](https://linkedin.com/in/zoltanctoth) - Data Analytics Architecture Expert, who provided valuable guidance during the development of this project.
