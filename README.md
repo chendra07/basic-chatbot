@@ -1,4 +1,4 @@
-# tensorflow-ml-template-v1
+# ml-template-v1
 
 With basic feature added such as:
 
