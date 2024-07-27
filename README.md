@@ -25,7 +25,7 @@ running the chainlit:
 chainlit run chat.py
 ```
 
-or add `-w` to refresh thw web browser after save the code
+or add `-w` to refresh the web browser everytime you update the code
 
 ```bash
 bash chainlit run chat.py -w
