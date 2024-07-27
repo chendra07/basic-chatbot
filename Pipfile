@@ -1,7 +1,7 @@
 [[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "simple ML template"
+name = "first LLM experiment"
 
 [packages]
 absl-py = "==2.1.0"
@@ -90,6 +90,10 @@ urllib3 = "==2.2.2"
 wcwidth = "==0.2.13"
 werkzeug = "==3.0.3"
 wrapt = "==1.16.0"
+ctransformers = "*"
+langchain = "*"
+langchain-community = "*"
+chainlit = "*"
 
 [dev-packages]
 ipykernel = "*"

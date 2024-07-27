@@ -1,18 +1,33 @@
 # tensorflow-ml-template-v1
 
-First python notebook template
-
 With basic feature added such as:
 
 - Python version: 3.12.4
 - Tensorflow: 2.17 (with CUDA) + memory growth optimization
+- Ctransformer
+- Chainlit
+- LangChain
 
 # Quick Installation
 
 run:
 
 ```bash
-bash ./one-click-installation.bash
+./one-click-installation.bash
+```
+
+# Running the Project
+
+running the chainlit:
+
+```bash
+chainlit run chat.py
+```
+
+or add `-w` to refresh thw web browser after save the code
+
+```bash
+bash chainlit run chat.py -w
 ```
 
 # Step by step to install
