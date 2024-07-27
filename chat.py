@@ -12,6 +12,11 @@ def get_prompt(instruction: str, history: list[str]) -> str:
 
 @cl.on_message
 async def on_message(message: cl.Message):
+    if message.content.lower() == "forget everything":
+        cl.user_session.set("message_history", [])
+        await cl.Message("Uh oh, I've just forgotten our conversation history").send()
+        return
+    
     message_history = cl.user_session.get("message_history")
     msg = cl.Message(content="")
     await msg.send()
